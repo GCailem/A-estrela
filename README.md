@@ -7,12 +7,13 @@ Rodando a algorítmo no Windows, utilizando PyCharm, numpy e PIP:
   ![image](https://user-images.githubusercontent.com/52551449/126098884-9d955082-1382-48bd-b544-42df0d7992bf.png)
   
  2. O diretório do projeto deve necessáriamente conter dois arquivos ".txt".
-    2.1 "mapa.txt": O caractere "0" representa um espaço disponível para que o agente possa percorrer, e "1" um obstáculo. 
+    
+  2.1 "mapa.txt": O caractere "0" representa um espaço disponível para que o agente possa percorrer, e "1" um obstáculo. 
     Obs.: Os caracteres do mapa podem ser alterados.
     
 ![image](https://user-images.githubusercontent.com/52551449/126230156-a206626a-a986-4442-ae66-6370b0a5752b.png)
 
-    2.2 "path.txt": Inicialmente pode estar em branco, o importante aqui é que o arquivo exista no root da aplicação.
+   2.2 "path.txt": Inicialmente pode estar em branco, o importante aqui é que o arquivo exista no root da aplicação.
     Obs.: Cada vez que o algoritmo roda, um novo percurso com base no "mapa.txt" será gerado neste arquivo. 
     
 ![image](https://user-images.githubusercontent.com/52551449/126230418-32ca914a-c2ba-42df-a5f5-c20054b46321.png)
